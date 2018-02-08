@@ -728,7 +728,7 @@
     /* Use the predefined value. */
 #elif defined(_MSC_VER)
     /* Windows needs to export/import data. */
-#   define U_IMPORT __declspec(dllimport)
+
 #else
 #   define U_IMPORT 
 #endif

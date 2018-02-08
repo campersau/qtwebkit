@@ -72,7 +72,7 @@ if ($outType eq "defines") {
     print "    #ifdef BUILDING_WEBKIT\n";
     print "        #define WEBKIT_API __declspec(dllexport)\n";
     print "    #else\n";
-    print "        #define WEBKIT_API __declspec(dllimport)\n";
+\n";
     print "    #endif\n";
     print "#else\n";
     print "    #define WEBKIT_API __attribute__((visibility(\"default\")))\n";

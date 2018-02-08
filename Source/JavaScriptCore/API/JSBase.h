@@ -78,7 +78,7 @@ typedef struct OpaqueJSValue* JSObjectRef;
 #if defined(BUILDING_JavaScriptCore) || defined(STATICALLY_LINKED_WITH_JavaScriptCore)
 #define JS_EXPORT __declspec(dllexport)
 #else
-#define JS_EXPORT __declspec(dllimport)
+
 #endif
 #else /* !defined(JS_NO_EXPORT) */
 #define JS_EXPORT

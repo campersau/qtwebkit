@@ -52,7 +52,7 @@
 #if defined(BUILDING_JavaScriptCore) || defined(STATICALLY_LINKED_WITH_JavaScriptCore)
 #define JS_EXPORTDATA __declspec(dllexport)
 #else
-#define JS_EXPORTDATA __declspec(dllimport)
+
 #endif
 
 #define JS_EXPORTCLASS JS_EXPORTDATA

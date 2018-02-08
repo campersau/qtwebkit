@@ -36,7 +36,7 @@
 #if BUILDING_WEBKIT
 #define WK_EXPORT __declspec(dllexport)
 #else
-#define WK_EXPORT __declspec(dllimport)
+
 #endif
 #else /* !defined(WK_NO_EXPORT) */
 #define WK_EXPORT

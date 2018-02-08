@@ -36,7 +36,7 @@ extern "C" {
 # ifdef LIBUDIS86_EXPORTS
 #  define LIBUDIS86_DLLEXTERN __declspec(dllexport)
 # else 
-#  define LIBUDIS86_DLLEXTERN __declspec(dllimport)
+
 # endif
 #else
 # define LIBUDIS86_DLLEXTERN 

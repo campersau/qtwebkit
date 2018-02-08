@@ -604,7 +604,7 @@
 #ifdef _MSC_VER
 
 #if GTEST_LINKED_AS_SHARED_LIBRARY
-#define GTEST_API_ __declspec(dllimport)
+
 #elif GTEST_CREATE_SHARED_LIBRARY
 #define GTEST_API_ __declspec(dllexport)
 #endif

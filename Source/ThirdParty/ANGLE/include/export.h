@@ -13,7 +13,7 @@
 #   if defined(LIBGLESV2_IMPLEMENTATION) || defined(LIBANGLE_IMPLEMENTATION)
 #       define ANGLE_EXPORT __declspec(dllexport)
 #   else
-#       define ANGLE_EXPORT __declspec(dllimport)
+
 #   endif
 #elif defined(__GNUC__)
 #   if defined(LIBGLESV2_IMPLEMENTATION) || defined(LIBANGLE_IMPLEMENTATION)

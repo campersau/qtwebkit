@@ -51,7 +51,7 @@
 #if OS(WINDOWS)
 
 #define WTF_EXPORT_DECLARATION __declspec(dllexport)
-#define WTF_IMPORT_DECLARATION __declspec(dllimport)
+
 #define WTF_HIDDEN_DECLARATION
 
 #elif defined(__GNUC__) && !defined(__CC_ARM) && !defined(__ARMCC__)
@@ -93,7 +93,7 @@
 #if defined(BUILDING_WTF) || defined(STATICALLY_LINKED_WITH_WTF)
 #define WTF_EXPORTDATA __declspec(dllexport)
 #else
-#define WTF_EXPORTDATA __declspec(dllimport)
+
 #endif
 #else // !OS(WINDOWS) || COMPILER(GCC_OR_CLANG)
 #define WTF_EXPORTDATA

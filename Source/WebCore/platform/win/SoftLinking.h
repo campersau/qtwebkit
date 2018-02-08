@@ -92,7 +92,7 @@
     } \
 
 /*
-    In order to soft link against functions decorated with __declspec(dllimport), we prepend "softLink_" to the function names.
+, we prepend "softLink_" to the function names.
     If you use SOFT_LINK_DLL_IMPORT(), you will also need to #define the function name to account for this, e.g.:
 
     SOFT_LINK_DLL_IMPORT(myLibrary, myFunction, ...)
